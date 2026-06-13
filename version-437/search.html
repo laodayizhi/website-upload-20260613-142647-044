@@ -1,0 +1,421 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>搜索影片 - 闪光影视</title>
+  <meta name="description" content="提供欧美高清电影与剧集的免费视频在线播放，并根据口碑与热度进行内容推荐。资源更新及时，画质清晰。">
+  <meta name="keywords" content="影片搜索,欧美视频免费,在线播放,高清电影,剧集推荐,免费观看,影视">
+  <meta property="og:title" content="搜索影片 - 闪光影视">
+  <meta property="og:description" content="提供欧美高清电影与剧集的免费视频在线播放，并根据口碑与热度进行内容推荐。资源更新及时，画质清晰。">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="./assets/css/original.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  
+</head>
+<body>
+<header class="site-header">
+  <div class="nav-wrap">
+    <a class="brand" href="./index.html" aria-label="闪光影视">
+      <span class="brand-mark">闪</span>
+      <span class="brand-text">
+        <strong>闪光影视</strong>
+        <span>高清电影与剧集推荐</span>
+      </span>
+    </a>
+    <nav class="desktop-nav" aria-label="主导航">
+      <a href="./index.html">首页</a>
+      <a href="./categories.html">分类</a>
+      <a href="./ranking.html">排行榜</a>
+      <a href="./search.html">搜索</a>
+    </nav>
+    <form class="header-search" action="./search.html" method="get">
+      <input type="search" name="q" placeholder="搜索影片、类型、地区" aria-label="搜索影片">
+      <button type="submit">搜索</button>
+    </form>
+    <button class="mobile-toggle" type="button" data-mobile-toggle aria-expanded="false" aria-label="打开导航">☰</button>
+  </div>
+  <nav class="mobile-nav" data-mobile-nav aria-label="移动端导航">
+    <a href="./index.html">首页</a>
+    <a href="./categories.html">分类</a>
+    <a href="./ranking.html">排行榜</a>
+    <a href="./search.html">搜索</a>
+  </nav>
+</header>
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumbs"><a href="./index.html">首页</a><span>/</span><span>搜索</span></div>
+      <h1 class="page-title">搜索影片</h1>
+      <p class="page-desc">输入片名、标签、地区或类型，快速查找想看的高清电影与剧集。</p>
+    </div>
+  </section>
+  <section class="main-section">
+    <div class="container">
+      <form class="filter-panel" data-search-form>
+        <input type="search" placeholder="搜索影片、演员氛围、题材标签" data-search-input aria-label="搜索关键词">
+        <select data-search-region aria-label="选择地区"><option value="">全部地区</option><option value="中国">中国</option><option value="中国内地">中国内地</option><option value="中国内地/新加坡">中国内地/新加坡</option><option value="中国台湾">中国台湾</option><option value="中国台湾/日本">中国台湾/日本</option><option value="中国大陆">中国大陆</option><option value="中国大陆/中国香港">中国大陆/中国香港</option><option value="中国大陆/台湾">中国大陆/台湾</option><option value="中国大陆/意大利">中国大陆/意大利</option><option value="中国大陆/香港">中国大陆/香港</option><option value="中国香港">中国香港</option><option value="中国香港,中国大陆">中国香港,中国大陆</option><option value="中国香港/中国大陆">中国香港/中国大陆</option><option value="中国香港/日本">中国香港/日本</option><option value="中国香港/美国">中国香港/美国</option><option value="丹麦">丹麦</option><option value="乌克兰">乌克兰</option><option value="乌克兰/波兰">乌克兰/波兰</option><option value="乌干达,美国">乌干达,美国</option><option value="以色列">以色列</option><option value="伊朗">伊朗</option><option value="伊朗/法国">伊朗/法国</option><option value="俄罗斯">俄罗斯</option><option value="俄罗斯/中国大陆">俄罗斯/中国大陆</option><option value="冰岛,丹麦">冰岛,丹麦</option><option value="加拿大">加拿大</option><option value="匈牙利">匈牙利</option><option value="印尼">印尼</option><option value="印度">印度</option><option value="印度尼西亚">印度尼西亚</option><option value="古巴,西班牙">古巴,西班牙</option><option value="古巴/西班牙">古巴/西班牙</option><option value="台湾">台湾</option><option value="哈萨克斯坦">哈萨克斯坦</option><option value="哥伦比亚/美国">哥伦比亚/美国</option><option value="土耳其/德国">土耳其/德国</option><option value="埃及/加拿大">埃及/加拿大</option><option value="墨西哥">墨西哥</option><option value="墨西哥/美国">墨西哥/美国</option><option value="尼日利亚">尼日利亚</option><option value="巴西">巴西</option><option value="巴西,美国">巴西,美国</option><option value="巴西/法国">巴西/法国</option><option value="巴西/美国">巴西/美国</option><option value="希腊/法国">希腊/法国</option><option value="德国">德国</option><option value="德国/中国大陆">德国/中国大陆</option><option value="德国/奥地利">德国/奥地利</option><option value="德国/法国">德国/法国</option><option value="德国/波兰">德国/波兰</option><option value="德国/美国">德国/美国</option><option value="意大利">意大利</option><option value="意大利/波兰">意大利/波兰</option><option value="意大利/美国">意大利/美国</option><option value="意大利/阿尔及利亚">意大利/阿尔及利亚</option><option value="意大利、日本">意大利、日本</option><option value="挪威">挪威</option><option value="挪威/德国">挪威/德国</option><option value="捷克">捷克</option><option value="新加坡/马来西亚">新加坡/马来西亚</option><option value="日本">日本</option><option value="日本/中国大陆">日本/中国大陆</option><option value="日本/法国">日本/法国</option><option value="日本/美国">日本/美国</option><option value="柬埔寨/法国">柬埔寨/法国</option><option value="比利时">比利时</option><option value="比利时/法国">比利时/法国</option><option value="法国">法国</option><option value="法国,爱尔兰">法国,爱尔兰</option><option value="法国/中国大陆">法国/中国大陆</option><option value="法国/俄罗斯">法国/俄罗斯</option><option value="法国/加拿大">法国/加拿大</option><option value="法国/塞内加尔">法国/塞内加尔</option><option value="法国/奥地利">法国/奥地利</option><option value="法国/德国">法国/德国</option><option value="法国/意大利">法国/意大利</option><option value="法国/比利时">法国/比利时</option><option value="法国/美国">法国/美国</option><option value="法国/越南">法国/越南</option><option value="波兰">波兰</option><option value="波兰/德国">波兰/德国</option><option value="泰国">泰国</option><option value="泰国,中国大陆">泰国,中国大陆</option><option value="泰国/中国台湾">泰国/中国台湾</option><option value="澳大利亚">澳大利亚</option><option value="澳大利亚/中国">澳大利亚/中国</option><option value="澳大利亚/美国">澳大利亚/美国</option><option value="爱尔兰">爱尔兰</option><option value="爱尔兰/英国">爱尔兰/英国</option><option value="爱沙尼亚">爱沙尼亚</option><option value="瑞典">瑞典</option><option value="瑞典/英国">瑞典/英国</option><option value="罗马尼亚">罗马尼亚</option><option value="罗马尼亚/法国">罗马尼亚/法国</option><option value="美国">美国</option><option value="美国,英国">美国,英国</option><option value="美国/中国大陆">美国/中国大陆</option><option value="美国/中国大陆(配音)">美国/中国大陆(配音)</option><option value="美国/加拿大">美国/加拿大</option><option value="美国/墨西哥">美国/墨西哥</option><option value="美国/巴西">美国/巴西</option><option value="美国/意大利">美国/意大利</option><option value="美国/捷克">美国/捷克</option><option value="美国/日本">美国/日本</option><option value="美国/法国">美国/法国</option><option value="美国/澳大利亚">美国/澳大利亚</option><option value="美国/英国">美国/英国</option><option value="芬兰">芬兰</option><option value="芬兰/英国">芬兰/英国</option><option value="苏联">苏联</option><option value="英国">英国</option><option value="英国/中国">英国/中国</option><option value="英国/中国大陆">英国/中国大陆</option><option value="英国/丹麦">英国/丹麦</option><option value="英国/俄罗斯">英国/俄罗斯</option><option value="英国/加拿大">英国/加拿大</option><option value="英国/希腊">英国/希腊</option><option value="英国/德国">英国/德国</option><option value="英国/意大利">英国/意大利</option><option value="英国/挪威">英国/挪威</option><option value="英国/法国">英国/法国</option><option value="英国/波兰">英国/波兰</option><option value="英国/美国">英国/美国</option><option value="英国/香港">英国/香港</option><option value="荷兰/英国">荷兰/英国</option><option value="菲律宾">菲律宾</option><option value="葡萄牙">葡萄牙</option><option value="虚构">虚构</option><option value="西班牙">西班牙</option><option value="西班牙,美国">西班牙,美国</option><option value="西班牙/墨西哥">西班牙/墨西哥</option><option value="西班牙/法国">西班牙/法国</option><option value="西班牙/阿根廷">西班牙/阿根廷</option><option value="越南/法国">越南/法国</option><option value="阿根廷">阿根廷</option><option value="韩国">韩国</option><option value="韩国/朝鲜(设定)">韩国/朝鲜(设定)</option><option value="韩国/美国">韩国/美国</option><option value="香港">香港</option><option value="香港,台湾">香港,台湾</option><option value="香港/中国大陆">香港/中国大陆</option></select>
+        <select data-search-type aria-label="选择类型"><option value="">全部类型</option><option value="Movie">Movie</option><option value="TV Series">TV Series</option><option value="TV动画">TV动画</option><option value="剧集">剧集</option><option value="剧集 动画">剧集 动画</option><option value="剧集/动画">剧集/动画</option><option value="剧集/动画特辑">剧集/动画特辑</option><option value="剧集/电影(系列)">剧集/电影(系列)</option><option value="剧集/纪录片">剧集/纪录片</option><option value="剧集/限定剧">剧集/限定剧</option><option value="动态漫画">动态漫画</option><option value="动漫">动漫</option><option value="动画">动画</option><option value="动画,剧集">动画,剧集</option><option value="动画剧集">动画剧集</option><option value="动画电影">动画电影</option><option value="动画短片">动画短片</option><option value="游戏/电影">游戏/电影</option><option value="特别篇">特别篇</option><option value="特摄剧">特摄剧</option><option value="电影">电影</option><option value="电影 (动画)">电影 (动画)</option><option value="电影 宗教悬疑">电影 宗教悬疑</option><option value="电影 恐怖/悬疑">电影 恐怖/悬疑</option><option value="电影/动画">电影/动画</option><option value="电影/电竞">电影/电竞</option><option value="电视剧">电视剧</option><option value="电视剧 (20集,每集25分钟)">电视剧 (20集,每集25分钟)</option><option value="电视剧 (30集)">电视剧 (30集)</option><option value="电视剧 (59集)">电视剧 (59集)</option><option value="电视剧 (6集)">电视剧 (6集)</option><option value="电视剧 (迷你剧)">电视剧 (迷你剧)</option><option value="电视剧 年代/家庭">电视剧 年代/家庭</option><option value="电视剧(20集)">电视剧(20集)</option><option value="电视剧(30集)">电视剧(30集)</option><option value="电视剧/限定剧">电视剧/限定剧</option><option value="电视节目/颁奖礼">电视节目/颁奖礼</option><option value="真人秀">真人秀</option><option value="短剧">短剧</option><option value="短片">短片</option><option value="纪录片">纪录片</option><option value="纪录片/传记">纪录片/传记</option><option value="综艺">综艺</option><option value="综艺/剧集">综艺/剧集</option><option value="综艺/演唱会">综艺/演唱会</option><option value="综艺/真人秀">综艺/真人秀</option><option value="综艺/纪录片">综艺/纪录片</option><option value="综艺/音乐会">综艺/音乐会</option><option value="网剧">网剧</option><option value="网络剧">网络剧</option><option value="网络动画剧集">网络动画剧集</option><option value="网络电影">网络电影</option><option value="迷你剧">迷你剧</option></select>
+        <select data-search-year aria-label="选择年份"><option value="">全部年份</option><option value="2030">2030</option><option value="2029">2029</option><option value="2028">2028</option><option value="2027">2027</option><option value="2026">2026</option><option value="2025">2025</option><option value="2024">2024</option><option value="2023">2023</option><option value="2022">2022</option><option value="2021">2021</option><option value="2020">2020</option><option value="2019">2019</option><option value="2018">2018</option><option value="2017">2017</option><option value="2016">2016</option><option value="2015">2015</option><option value="2014">2014</option><option value="2013">2013</option><option value="2012">2012</option><option value="2011">2011</option><option value="2010">2010</option><option value="2009">2009</option><option value="2008">2008</option><option value="2007">2007</option><option value="2006">2006</option><option value="2005">2005</option><option value="2004">2004</option><option value="2003">2003</option><option value="2002">2002</option><option value="2001">2001</option><option value="2000">2000</option><option value="1999">1999</option><option value="1998">1998</option><option value="1997">1997</option><option value="1996">1996</option><option value="1995">1995</option><option value="1994">1994</option><option value="1993">1993</option><option value="1992">1992</option><option value="1991">1991</option><option value="1990">1990</option><option value="1989">1989</option><option value="1988">1988</option><option value="1987">1987</option><option value="1986">1986</option><option value="1985">1985</option><option value="1984">1984</option><option value="1983">1983</option><option value="1982">1982</option><option value="1981">1981</option><option value="1979">1979</option><option value="1978">1978</option><option value="1977">1977</option><option value="1976">1976</option><option value="1975">1975</option><option value="1974">1974</option><option value="1973">1973</option><option value="1972">1972</option><option value="1970">1970</option><option value="1967">1967</option><option value="1966">1966</option><option value="1965">1965</option><option value="1962">1962</option><option value="1960">1960</option><option value="1958">1958</option><option value="1952">1952</option><option value="1950">1950</option><option value="1945">1945</option><option value="1944">1944</option><option value="1931">1931</option><option value="1920">1920</option><option value="1888">1888</option></select>
+      </form>
+      <div data-search-results></div>
+    </div>
+  </section>
+  <section class="main-section">
+    <div class="container">
+      <div class="section-header">
+        <div>
+          <div class="section-kicker">Hot Search</div>
+          <h2 class="section-title">热门搜索推荐</h2>
+        </div>
+      </div>
+      <div class="movie-grid compact"><article class="movie-card" data-movie-card data-title="穆钦巴赫" data-tags="传记 古典乐 天才 疯魔 剧情 音乐" data-region="德国" data-type="电影" data-year="2026">
+  <a href="./video/movie-0511.html">
+    <div class="movie-cover">
+      <img src="./61.jpg" alt="穆钦巴赫" loading="lazy">
+      <div class="cover-layer"><span>2026 · 电影</span></div>
+    </div>
+    <div class="movie-info">
+      <h3>穆钦巴赫</h3>
+      <p>18世纪宫廷乐师穆钦巴赫为了写出“通神”的赋格曲,不惜出卖灵魂,与魔鬼进行了一场以听觉为赌注的对决。</p>
+      <div class="movie-tags"><span>德国</span><span>电影</span><span>剧情</span></div>
+    </div>
+  </a>
+</article>
+<article class="movie-card" data-movie-card data-title="绣闼藏春" data-tags="刺绣 深宅大院 女性复仇 心理惊悚 古装 悬疑 惊悚 情色" data-region="中国大陆" data-type="电影" data-year="2024">
+  <a href="./video/movie-0270.html">
+    <div class="movie-cover">
+      <img src="./120.jpg" alt="绣闼藏春" loading="lazy">
+      <div class="cover-layer"><span>2024 · 电影</span></div>
+    </div>
+    <div class="movie-info">
+      <h3>绣闼藏春</h3>
+      <p>民国绣坊里,绣娘们惨死,她们临死前绣出的图案预言了下一位死者。</p>
+      <div class="movie-tags"><span>中国大陆</span><span>电影</span><span>古装</span></div>
+    </div>
+  </a>
+</article>
+<article class="movie-card" data-movie-card data-title="猫胆虫威大电影" data-tags="猫咪特工 昆虫反派 恶搞 好莱坞嘲解 萌宠 动画 喜剧" data-region="美国" data-type="电影" data-year="2026">
+  <a href="./video/movie-1166.html">
+    <div class="movie-cover">
+      <img src="./116.jpg" alt="猫胆虫威大电影" loading="lazy">
+      <div class="cover-layer"><span>2026 · 电影</span></div>
+    </div>
+    <div class="movie-info">
+      <h3>猫胆虫威大电影</h3>
+      <p>被开除的洛杉矶警猫与一只社恐甲虫组成临时搭档,阻止一只妄想炸毁狗粮厂的精神病蟑螂。</p>
+      <div class="movie-tags"><span>美国</span><span>电影</span><span>动画</span></div>
+    </div>
+  </a>
+</article>
+<article class="movie-card" data-movie-card data-title="心动千年" data-tags="千年轮回 虐恋情深 捉妖师 仙侠虐恋 奇幻 爱情 古装" data-region="中国大陆" data-type="剧集" data-year="2023">
+  <a href="./video/movie-0962.html">
+    <div class="movie-cover">
+      <img src="./62.jpg" alt="心动千年" loading="lazy">
+      <div class="cover-layer"><span>2023 · 剧集</span></div>
+    </div>
+    <div class="movie-info">
+      <h3>心动千年</h3>
+      <p>冷酷捉妖师用剑刺穿了狐妖的心脏,却发现她胸口藏着自己千年前写给妻子的情书,原来他一直追杀的是转世后的挚爱。</p>
+      <div class="movie-tags"><span>中国大陆</span><span>剧集</span><span>奇幻</span></div>
+    </div>
+  </a>
+</article>
+<article class="movie-card" data-movie-card data-title="红豆面包" data-tags="饮食治愈 祖孙情 战后时代 剧情 家庭" data-region="日本" data-type="电影" data-year="2025">
+  <a href="./video/movie-0541.html">
+    <div class="movie-cover">
+      <img src="./91.jpg" alt="红豆面包" loading="lazy">
+      <div class="cover-layer"><span>2025 · 电影</span></div>
+    </div>
+    <div class="movie-info">
+      <h3>红豆面包</h3>
+      <p>孙女按照失智奶奶的食谱做红豆面包,味道却始终不对,直到发现食谱上少了一行字。</p>
+      <div class="movie-tags"><span>日本</span><span>电影</span><span>剧情</span></div>
+    </div>
+  </a>
+</article>
+<article class="movie-card" data-movie-card data-title="暹罗复兴录" data-tags="穿越 古代 宫廷 权谋 大女主 历史 奇幻 剧情" data-region="泰国" data-type="剧集" data-year="2025">
+  <a href="./video/movie-0616.html">
+    <div class="movie-cover">
+      <img src="./16.jpg" alt="暹罗复兴录" loading="lazy">
+      <div class="cover-layer"><span>2025 · 剧集</span></div>
+    </div>
+    <div class="movie-info">
+      <h3>暹罗复兴录</h3>
+      <p>现代女建筑师穿越到1860年的暹罗宫廷,试图用未来知识改变被殖民的命运。</p>
+      <div class="movie-tags"><span>泰国</span><span>剧集</span><span>历史</span></div>
+    </div>
+  </a>
+</article>
+<article class="movie-card" data-movie-card data-title="双面名模" data-tags="双重人格 娱乐圈 复仇 时尚 悬疑 爱情" data-region="韩国" data-type="电视剧" data-year="2023">
+  <a href="./video/movie-0157.html">
+    <div class="movie-cover">
+      <img src="./7.jpg" alt="双面名模" loading="lazy">
+      <div class="cover-layer"><span>2023 · 电视剧</span></div>
+    </div>
+    <div class="movie-info">
+      <h3>双面名模</h3>
+      <p>温柔内向的哑女模特被姐姐强行推入名利场,却在头部受到撞击后,觉醒了一个强势狠戾的第二人格。</p>
+      <div class="movie-tags"><span>韩国</span><span>电视剧</span><span>悬疑</span></div>
+    </div>
+  </a>
+</article>
+<article class="movie-card" data-movie-card data-title="惠里桂" data-tags="眷村 老兵 姐妹情 时代变迁 家庭 历史 剧情" data-region="中国台湾" data-type="电影" data-year="2023">
+  <a href="./video/movie-0722.html">
+    <div class="movie-cover">
+      <img src="./122.jpg" alt="惠里桂" loading="lazy">
+      <div class="cover-layer"><span>2023 · 电影</span></div>
+    </div>
+    <div class="movie-info">
+      <h3>惠里桂</h3>
+      <p>一本尘封的族谱,揭开了一对姐妹跨越七十年的隔阂与守望——惠与里,桂与香。</p>
+      <div class="movie-tags"><span>中国台湾</span><span>电影</span><span>家庭</span></div>
+    </div>
+  </a>
+</article>
+<article class="movie-card" data-movie-card data-title="天地大冲撞国语" data-tags="陨石 末世 特效大片 灾难 科幻" data-region="中国大陆" data-type="电影" data-year="2024">
+  <a href="./video/movie-0885.html">
+    <div class="movie-cover">
+      <img src="./135.jpg" alt="天地大冲撞国语" loading="lazy">
+      <div class="cover-layer"><span>2024 · 电影</span></div>
+    </div>
+    <div class="movie-info">
+      <h3>天地大冲撞国语</h3>
+      <p>当一颗彗星撞向地球,中国航天员必须在72小时内,登上太空引爆核弹拯救人类。</p>
+      <div class="movie-tags"><span>中国大陆</span><span>电影</span><span>灾难</span></div>
+    </div>
+  </a>
+</article>
+<article class="movie-card" data-movie-card data-title="女士万岁" data-tags="女性 意大利 庄园 遗产 姐妹情 喜剧 女性" data-region="意大利" data-type="剧集" data-year="2027">
+  <a href="./video/movie-0007.html">
+    <div class="movie-cover">
+      <img src="./7.jpg" alt="女士万岁" loading="lazy">
+      <div class="cover-layer"><span>2027 · 剧集</span></div>
+    </div>
+    <div class="movie-info">
+      <h3>女士万岁</h3>
+      <p>年迈的古怪女男爵临终前把庄园留给了三位护工,她的亲孙子必须扮成女装才能留下。</p>
+      <div class="movie-tags"><span>意大利</span><span>剧集</span><span>喜剧</span></div>
+    </div>
+  </a>
+</article>
+<article class="movie-card" data-movie-card data-title="战略阴谋:神鬼狙击手" data-tags="狙击手 反恐 无人机 沙漠 双雄对决 动作 战争" data-region="美国" data-type="电影" data-year="2025">
+  <a href="./video/movie-0174.html">
+    <div class="movie-cover">
+      <img src="./24.jpg" alt="战略阴谋:神鬼狙击手" loading="lazy">
+      <div class="cover-layer"><span>2025 · 电影</span></div>
+    </div>
+    <div class="movie-info">
+      <h3>战略阴谋:神鬼狙击手</h3>
+      <p>两名顶尖狙击手被困沙漠废墟,他们必须在48小时内互相配合击杀敌军首领。</p>
+      <div class="movie-tags"><span>美国</span><span>电影</span><span>动作</span></div>
+    </div>
+  </a>
+</article>
+<article class="movie-card" data-movie-card data-title="灵虐" data-tags="家暴 儿童创伤 轮回 民俗 高概念 恐怖 心理" data-region="泰国/中国台湾" data-type="电影" data-year="2023">
+  <a href="./video/movie-0779.html">
+    <div class="movie-cover">
+      <img src="./29.jpg" alt="灵虐" loading="lazy">
+      <div class="cover-layer"><span>2023 · 电影</span></div>
+    </div>
+    <div class="movie-info">
+      <h3>灵虐</h3>
+      <p>心理医生在治疗一名声称被母亲鬼魂虐待的男孩时,发现自己童年的记忆也开始被同样的“无形之手”掐住脖子。</p>
+      <div class="movie-tags"><span>泰国/中国台湾</span><span>电影</span><span>恐怖</span></div>
+    </div>
+  </a>
+</article>
+<article class="movie-card" data-movie-card data-title="山里红" data-tags="太行山 留守儿童 山楂酒 非职业演员 四季轮回 文艺 乡土 女性" data-region="中国大陆" data-type="电影" data-year="2025">
+  <a href="./video/movie-0975.html">
+    <div class="movie-cover">
+      <img src="./75.jpg" alt="山里红" loading="lazy">
+      <div class="cover-layer"><span>2025 · 电影</span></div>
+    </div>
+    <div class="movie-info">
+      <h3>山里红</h3>
+      <p>太行山深处的哑女翠花用祖传方子酿山楂酒,等一个当年说“喝了你的酒就回来”的男人,等了整整三十年。</p>
+      <div class="movie-tags"><span>中国大陆</span><span>电影</span><span>文艺</span></div>
+    </div>
+  </a>
+</article>
+<article class="movie-card" data-movie-card data-title="新婚公寓" data-tags="新婚 邻里 变态 反转 密室 悬疑 惊悚 爱情" data-region="韩国" data-type="剧集" data-year="2023">
+  <a href="./video/movie-1459.html">
+    <div class="movie-cover">
+      <img src="./109.jpg" alt="新婚公寓" loading="lazy">
+      <div class="cover-layer"><span>2023 · 剧集</span></div>
+    </div>
+    <div class="movie-info">
+      <h3>新婚公寓</h3>
+      <p>新婚夫妻搬进新家,每晚都收到匿名快递,里面是对方白天出轨的照片。</p>
+      <div class="movie-tags"><span>韩国</span><span>剧集</span><span>悬疑</span></div>
+    </div>
+  </a>
+</article>
+<article class="movie-card" data-movie-card data-title="天使降临" data-tags="治愈系 非人类恋爱 同居日常 爱情 奇幻" data-region="日本" data-type="电视剧" data-year="2023">
+  <a href="./video/movie-0437.html">
+    <div class="movie-cover">
+      <img src="./137.jpg" alt="天使降临" loading="lazy">
+      <div class="cover-layer"><span>2023 · 电视剧</span></div>
+    </div>
+    <div class="movie-info">
+      <h3>天使降临</h3>
+      <p>冷漠的上班族雨宫家中的阳台上,突然坠落了一个自称是见习天使的迷糊少女,声称要帮他获得幸福。</p>
+      <div class="movie-tags"><span>日本</span><span>电视剧</span><span>爱情</span></div>
+    </div>
+  </a>
+</article>
+<article class="movie-card" data-movie-card data-title="我就是我!" data-tags="青少年 自我认同 说唱 代际冲突 剧情 音乐" data-region="中国大陆" data-type="电影" data-year="2025">
+  <a href="./video/movie-1885.html">
+    <div class="movie-cover">
+      <img src="./85.jpg" alt="我就是我!" loading="lazy">
+      <div class="cover-layer"><span>2025 · 电影</span></div>
+    </div>
+    <div class="movie-info">
+      <h3>我就是我!</h3>
+      <p>重点高中的乖乖女偷偷参加地下说唱比赛,当校长父亲坐在评委席时,她摘下了面具。</p>
+      <div class="movie-tags"><span>中国大陆</span><span>电影</span><span>剧情</span></div>
+    </div>
+  </a>
+</article>
+<article class="movie-card" data-movie-card data-title="彩凤云裳" data-tags="神话 刺绣 轮回 爱情 古装 奇幻" data-region="中国大陆" data-type="电影" data-year="2027">
+  <a href="./video/movie-1004.html">
+    <div class="movie-cover">
+      <img src="./104.jpg" alt="彩凤云裳" loading="lazy">
+      <div class="cover-layer"><span>2027 · 电影</span></div>
+    </div>
+    <div class="movie-info">
+      <h3>彩凤云裳</h3>
+      <p>织女下凡转世为一名患有色盲的绣娘,她织出的“无色彩锦”却能让凡人看见自己最思念之人的模样。</p>
+      <div class="movie-tags"><span>中国大陆</span><span>电影</span><span>爱情</span></div>
+    </div>
+  </a>
+</article>
+<article class="movie-card" data-movie-card data-title="异色国度:出逃之旅" data-tags="移民 女性 非洲 公路 剧情冒险" data-region="法国/塞内加尔" data-type="电视剧" data-year="2025">
+  <a href="./video/movie-0226.html">
+    <div class="movie-cover">
+      <img src="./76.jpg" alt="异色国度:出逃之旅" loading="lazy">
+      <div class="cover-layer"><span>2025 · 电视剧</span></div>
+    </div>
+    <div class="movie-info">
+      <h3>异色国度:出逃之旅</h3>
+      <p>四位非洲女性为了逃离宗教极端分子的迫害,踏上穿越撒哈拉沙漠前往欧洲的生死征途。</p>
+      <div class="movie-tags"><span>法国/塞内加尔</span><span>电视剧</span><span>剧情冒险</span></div>
+    </div>
+  </a>
+</article>
+<article class="movie-card" data-movie-card data-title="真假学园0木更津乱斗篇" data-tags="女子高生 不良 热血 剧情 动作" data-region="日本" data-type="电影" data-year="2015">
+  <a href="./video/movie-0634.html">
+    <div class="movie-cover">
+      <img src="./34.jpg" alt="真假学园0木更津乱斗篇" loading="lazy">
+      <div class="cover-layer"><span>2015 · 电影</span></div>
+    </div>
+    <div class="movie-info">
+      <h3>真假学园0木更津乱斗篇</h3>
+      <p>在真假学园成立之前,最强的传说发生在木更津,那里的女高中生打架从来不说话,只用拳头问候。</p>
+      <div class="movie-tags"><span>日本</span><span>电影</span><span>剧情</span></div>
+    </div>
+  </a>
+</article>
+<article class="movie-card" data-movie-card data-title="迷幻" data-tags="记忆删除 精神控制 高智商犯罪 反转 悬疑 惊悚 科幻" data-region="法国" data-type="电影" data-year="2024">
+  <a href="./video/movie-0844.html">
+    <div class="movie-cover">
+      <img src="./94.jpg" alt="迷幻" loading="lazy">
+      <div class="cover-layer"><span>2024 · 电影</span></div>
+    </div>
+    <div class="movie-info">
+      <h3>迷幻</h3>
+      <p>体验一次“完美谋杀”的记忆删除服务后,你还能相信现在的自己是真实的吗?</p>
+      <div class="movie-tags"><span>法国</span><span>电影</span><span>悬疑</span></div>
+    </div>
+  </a>
+</article>
+<article class="movie-card" data-movie-card data-title="多龙芝" data-tags="小丑女 恶搞 翻身 反英雄 动作 喜剧 奇幻" data-region="日本" data-type="电影" data-year="2024">
+  <a href="./video/movie-0693.html">
+    <div class="movie-cover">
+      <img src="./93.jpg" alt="多龙芝" loading="lazy">
+      <div class="cover-layer"><span>2024 · 电影</span></div>
+    </div>
+    <div class="movie-info">
+      <h3>多龙芝</h3>
+      <p>《小双侠》中的经典反派“多龙芝”终于当了主角,她这次的目标不是征服世界,而是拍一部关于自己的大电影。</p>
+      <div class="movie-tags"><span>日本</span><span>电影</span><span>动作</span></div>
+    </div>
+  </a>
+</article>
+<article class="movie-card" data-movie-card data-title="丝绸之路" data-tags="丝绸之路 考古 纪录片 文明 历史 冒险" data-region="中国大陆" data-type="剧集/纪录片" data-year="2025">
+  <a href="./video/movie-1068.html">
+    <div class="movie-cover">
+      <img src="./18.jpg" alt="丝绸之路" loading="lazy">
+      <div class="cover-layer"><span>2025 · 剧集/纪录片</span></div>
+    </div>
+    <div class="movie-info">
+      <h3>丝绸之路</h3>
+      <p>耗资巨大,历时五年拍摄,全景式再现丝绸之路两千年的兴衰与文明交融。</p>
+      <div class="movie-tags"><span>中国大陆</span><span>剧集/纪录片</span><span>历史</span></div>
+    </div>
+  </a>
+</article>
+<article class="movie-card" data-movie-card data-title="留神" data-tags="诈骗 职场 讽刺 喜剧 犯罪" data-region="中国大陆" data-type="电影" data-year="2024">
+  <a href="./video/movie-1975.html">
+    <div class="movie-cover">
+      <img src="./25.jpg" alt="留神" loading="lazy">
+      <div class="cover-layer"><span>2024 · 电影</span></div>
+    </div>
+    <div class="movie-info">
+      <h3>留神</h3>
+      <p>传销公司“优秀员工”跳槽时带走客户名单,却发现新老板和旧老板是亲兄弟。</p>
+      <div class="movie-tags"><span>中国大陆</span><span>电影</span><span>喜剧</span></div>
+    </div>
+  </a>
+</article>
+<article class="movie-card" data-movie-card data-title="哥你好" data-tags="穿越 兄妹 搞笑 温情 喜剧 奇幻" data-region="中国内地" data-type="电影" data-year="2023">
+  <a href="./video/movie-0011.html">
+    <div class="movie-cover">
+      <img src="./11.jpg" alt="哥你好" loading="lazy">
+      <div class="cover-layer"><span>2023 · 电影</span></div>
+    </div>
+    <div class="movie-info">
+      <h3>哥你好</h3>
+      <p>妹妹意外穿越到1990年代,发现那个整天欺负她的“不靠谱”哥哥,年轻时竟然是全城最帅的摇滚主唱。</p>
+      <div class="movie-tags"><span>中国内地</span><span>电影</span><span>喜剧</span></div>
+    </div>
+  </a>
+</article></div>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div>
+      <h3>闪光影视</h3>
+      <p>提供欧美高清电影与剧集的免费视频在线播放，并根据口碑与热度进行内容推荐。资源更新及时，画质清晰。</p>
+    </div>
+    <div>
+      <h3>热门入口</h3>
+      <div class="footer-links">
+        <a href="./categories.html">全部分类</a>
+        <a href="./ranking.html">热度榜单</a>
+        <a href="./search.html">影片搜索</a>
+      </div>
+    </div>
+    <div>
+      <h3>精选分类</h3>
+      <div class="footer-links"><a href="./category/europe-us.html">欧美专区</a><a href="./category/new-release.html">新片速递</a><a href="./category/popular-series.html">热门剧集</a><a href="./category/cinema-classics.html">电影精选</a><a href="./category/suspense-thriller.html">悬疑惊悚</a></div>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2026 闪光影视. 高清电影与剧集推荐.</div>
+</footer>
+<script src="./assets/js/site.js"></script>
+<script src="./assets/js/movies-data.js"></script>
+<script src="./assets/js/search.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
